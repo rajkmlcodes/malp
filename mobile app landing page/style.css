@@ -1,0 +1,59 @@
+*{
+    margin: 20px 30px;
+    padding: 0;
+    font-family: Montserrat,sans-serif;
+}
+
+main{
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    padding-top: 30px;
+}
+
+.right{
+    width: 50%;
+}
+
+button{
+    background: #ffcfd2;
+    color: rgb(255, 56, 56);
+    border: none;
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+p{
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: rgb(69, 69, 69) ;
+}
+
+p[alt="ig-image"]{
+    color: #bfbfbf;
+    font-style: italic;
+    font-size: 12px;
+}
+.images{
+    display: flex;
+}
+
+img[alt="logo"]{
+    width: 10em;
+}
+
+img[alt="logo"]:hover{
+    cursor: pointer;
+}
+
+img[alt="profile-pic"]{
+    width: 92%;
+}
